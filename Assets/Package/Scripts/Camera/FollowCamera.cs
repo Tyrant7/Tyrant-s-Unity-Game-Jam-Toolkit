@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// A simple script which forces an object to follow the camera.
+/// </summary>
 public class FollowCamera : MonoBehaviour
 {
     Transform mainCamera;
