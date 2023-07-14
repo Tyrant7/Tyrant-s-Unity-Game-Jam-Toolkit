@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// A simple AudioManager class. Handles playing one shots, and round robins.
+/// A simple AudioManager class for sound effects. Handles playing one shots, and round robins.
 /// </summary>
 public class AudioManager : MonoBehaviour
 {
