@@ -108,7 +108,7 @@ public class SoundtrackManager : MonoBehaviour
         {
             FadingSource.volume = Mathf.Lerp(0, maxVolume, fadeTime);
             ActiveSource.volume = Mathf.Lerp(maxVolume, 0, fadeTime);
-            fadeTime += Time.deltaTime / maxFadeTime;
+            fadeTime += Time.unscaledDeltaTime / maxFadeTime;
 
             yield return new WaitForEndOfFrame();
         }
